@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PT Compliance — Day 1–2 Windows Prototype (No Mac Needed)
 
 This is a Windows-friendly prototype that mirrors **Day 1–2** of the project:
@@ -66,3 +67,22 @@ python tests/test_recorder.py
 - The JSON format mirrors what you'd store on iOS/watchOS later (timestamps + ax/ay/az).
 - When you move to devices, swap the simulator with real sensor reads—everything else
   (persistence, lists, later comparison logic) can stay the same.
+=======
+#drop in readme contents
+# PT Compliance Platform (cross platform starter)
+
+A proof of concept system that lets physical therapists (PTs) record **baseline movements** and lets patients **compare** their own movements in real time using only commodity apple devices.
+
+##Core idea
+* PT records “gold standard” set of reps.
+* Patient app streams accelerometer /gyro data.
+* Backend scores similarity and returns instant feedback.
+
+##Tech stack
+| Layer | Tech |
+| Mobile / Wear OS | **Flutter** (`sensors_plus`, `sqflite`) |
+| Backend API | **FastAPI** + Pydantic |
+| Web dashboard | **Next.js** + Chakra UI |
+| CI / CD | GitHub Actions → debug APK + Docker image |
+| Storage | SQLite local, Postgres cloud (via SQLAlchemy) |
+>>>>>>> 4c4e8fc82b1a71f8d20238eb4f0f79a709677ff9
