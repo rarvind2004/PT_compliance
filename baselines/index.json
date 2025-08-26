@@ -1,0 +1,20 @@
+{
+  "baselines": [
+    {
+      "file": "20250817_184722_Arm_Circles_Beginner.json",
+      "exercise": "Arm Circles",
+      "skill_level": "Beginner",
+      "therapist": "Dr. Smith",
+      "frame_count": 258,
+      "duration_sec": 2.570273899997119
+    },
+    {
+      "file": "20250825_142821_Arm_Circles_Beginner.json",
+      "exercise": "Arm Circles",
+      "skill_level": "Beginner",
+      "therapist": "Dr. Smith",
+      "frame_count": 436,
+      "duration_sec": 4.350322899990715
+    }
+  ]
+}
