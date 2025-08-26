@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PT Compliance — Day 1–2 Windows Prototype (No Mac Needed)
 
 This is a Windows-friendly prototype that mirrors **Day 1–2** of the project:
